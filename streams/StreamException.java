@@ -1,6 +1,7 @@
 public class StreamException{
 
 public static void main(String[] args) {
+	//https://dzone.com/articles/exception-handling-in-java-streams
 		String input = "60001001,60001002,60001X03,60001004";
 		//String input = "60001001,,60001003";
 		OrFilter orFilter = new OrFilter();
